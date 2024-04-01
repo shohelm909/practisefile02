@@ -1,6 +1,7 @@
-//import {pi, a} from './external.js'; //named import
+//import {pi as sh, a as bh} from "./external.js";
+//console.log(sh,bh);
+import external, {pi,} from "./external.js";
+console.log(external)
+console.log(pi)
 
-//sob akbare import korte hole
-import * as test from "./external.js";
-console.log(test.pi);
-console.log(test.a);
+external()
