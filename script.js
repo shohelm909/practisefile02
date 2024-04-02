@@ -13,3 +13,28 @@ var player2 = "Tamim";
 
 
 console.log(modifier`We have ${player1} and ${player2} in our cricket team.`);
+var a = 5;
+var b = a;
+
+
+a = 6;
+
+
+console.log(a);
+console.log(b);
+
+
+var a = {
+    name: "Sakib",
+
+};
+var b = a;
+
+
+a.name = "tamim";
+
+
+
+
+console.log(a);
+console.log(b);
